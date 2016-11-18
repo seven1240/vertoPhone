@@ -3235,7 +3235,7 @@
                 IceCandidate = w.mozRTCIceCandidate || w.RTCIceCandidate;
 
             var STUN = {
-                url: !moz ? 'stun:stun.l.google.com:19302' : 'stun:23.21.150.121'
+                url: 'stun:23.21.150.121'
             };
 
             var iceServers = null;
